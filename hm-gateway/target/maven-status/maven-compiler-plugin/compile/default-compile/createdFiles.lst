@@ -1,0 +1,3 @@
+com\hmall\gateway\controller\TestController.class
+com\hmall\gateway\GatewayApplication.class
+com\hmall\gateway\filters\MyGlobalFilter.class
