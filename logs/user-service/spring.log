@@ -1,210 +1,253 @@
-09:54:08:870  INFO 3872 --- [main] com.hmall.user.UserApplication           : Starting UserApplication using Java 11.0.29 on zzb with PID 3872 (D:\springcloudcode\hmall\user-service\target\classes started by 19119 in D:\springcloudcode\hmall)
-09:54:08:876 DEBUG 3872 --- [main] com.hmall.user.UserApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-09:54:08:876  INFO 3872 --- [main] com.hmall.user.UserApplication           : The following 1 profile is active: "local"
-09:54:10:048  INFO 3872 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=55918555-c298-3d33-8602-6d444bb16364
-09:54:10:371  INFO 3872 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
-09:54:10:384  INFO 3872 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-09:54:10:384  INFO 3872 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-09:54:10:537  INFO 3872 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-09:54:10:538  INFO 3872 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1615 ms
-09:54:14:369  INFO 3872 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
-09:54:14:441  INFO 3872 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-09:54:16:161  INFO 3872 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
-09:54:16:713  INFO 3872 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 1480b23b-82d8-4b53-9420-767a2d920a7e
-09:54:16:760  INFO 3872 --- [main] org.reflections.Reflections              : Reflections took 28 ms to scan 1 urls, producing 3 keys and 6 values 
-09:54:16:787  INFO 3872 --- [main] org.reflections.Reflections              : Reflections took 13 ms to scan 1 urls, producing 4 keys and 9 values 
-09:54:16:800  INFO 3872 --- [main] org.reflections.Reflections              : Reflections took 13 ms to scan 1 urls, producing 3 keys and 10 values 
-09:54:16:803  WARN 3872 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-09:54:16:815  INFO 3872 --- [main] org.reflections.Reflections              : Reflections took 12 ms to scan 1 urls, producing 1 keys and 5 values 
-09:54:16:835  INFO 3872 --- [main] org.reflections.Reflections              : Reflections took 17 ms to scan 1 urls, producing 1 keys and 7 values 
-09:54:16:850  INFO 3872 --- [main] org.reflections.Reflections              : Reflections took 11 ms to scan 1 urls, producing 2 keys and 8 values 
-09:54:16:858  WARN 3872 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-09:54:16:859  INFO 3872 --- [main] com.alibaba.nacos.common.remote.client   : [1480b23b-82d8-4b53-9420-767a2d920a7e] RpcClient init label, labels = {module=naming, source=sdk}
-09:54:16:862  INFO 3872 --- [main] com.alibaba.nacos.common.remote.client   : [1480b23b-82d8-4b53-9420-767a2d920a7e] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
-09:54:16:862  INFO 3872 --- [main] com.alibaba.nacos.common.remote.client   : [1480b23b-82d8-4b53-9420-767a2d920a7e] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
-09:54:16:862  INFO 3872 --- [main] com.alibaba.nacos.common.remote.client   : [1480b23b-82d8-4b53-9420-767a2d920a7e] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-09:54:16:864  INFO 3872 --- [main] com.alibaba.nacos.common.remote.client   : [1480b23b-82d8-4b53-9420-767a2d920a7e] Try to connect to server on start up, server: {serverIp = '192.168.100.130', server main port = 8848}
-09:54:19:212  INFO 3872 --- [main] com.alibaba.nacos.common.remote.client   : [1480b23b-82d8-4b53-9420-767a2d920a7e] Success to connect to server [192.168.100.130:8848] on start up, connectionId = 1763344459719_192.168.100.1_57952
-09:54:19:213  INFO 3872 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [1480b23b-82d8-4b53-9420-767a2d920a7e] Notify connected event to listeners.
-09:54:19:214  INFO 3872 --- [main] com.alibaba.nacos.common.remote.client   : [1480b23b-82d8-4b53-9420-767a2d920a7e] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
-09:54:19:216  INFO 3872 --- [main] com.alibaba.nacos.common.remote.client   : [1480b23b-82d8-4b53-9420-767a2d920a7e] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$999/0x0000000840707840
-09:54:19:308  INFO 3872 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
-09:54:19:326  INFO 3872 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP user-service 192.168.100.1:8084 register finished
-09:54:19:823  INFO 3872 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [1480b23b-82d8-4b53-9420-767a2d920a7e] Receive server push request, request = NotifySubscriberRequest, requestId = 3
-09:54:19:847  INFO 3872 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [1480b23b-82d8-4b53-9420-767a2d920a7e] Ack server push request, request = NotifySubscriberRequest, requestId = 3
-09:54:20:931  INFO 3872 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
-09:54:20:931  INFO 3872 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-09:54:20:934  INFO 3872 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-09:54:20:962  INFO 3872 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-09:54:21:128  INFO 3872 --- [main] com.hmall.user.UserApplication           : Started UserApplication in 14.239 seconds (JVM running for 15.537)
-09:54:43:977  INFO 3872 --- [http-nio-8084-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-09:54:43:977  INFO 3872 --- [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-09:54:43:979  INFO 3872 --- [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-09:54:44:275  INFO 3872 --- [http-nio-8084-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-09:54:44:776  INFO 3872 --- [http-nio-8084-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-09:54:44:786 DEBUG 3872 --- [http-nio-8084-exec-2] c.h.user.mapper.UserMapper.selectList    : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
-09:54:44:827 DEBUG 3872 --- [http-nio-8084-exec-2] c.h.user.mapper.UserMapper.selectList    : ==> Parameters: jack(String)
-09:54:44:869 DEBUG 3872 --- [http-nio-8084-exec-2] c.h.user.mapper.UserMapper.selectList    : <==      Total: 1
-09:57:41:966 DEBUG 3872 --- [http-nio-8084-exec-3] c.h.user.mapper.UserMapper.selectList    : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
-09:57:41:967 DEBUG 3872 --- [http-nio-8084-exec-3] c.h.user.mapper.UserMapper.selectList    : ==> Parameters: jack(String)
-09:57:41:968 DEBUG 3872 --- [http-nio-8084-exec-3] c.h.user.mapper.UserMapper.selectList    : <==      Total: 1
-09:57:49:017  WARN 3872 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
-09:57:49:018  WARN 3872 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
-09:57:49:018  WARN 3872 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
-09:57:49:019  WARN 3872 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
-09:57:49:237  INFO 3872 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
-09:57:49:243  INFO 3872 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
-09:57:49:570  INFO 3872 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
-09:57:49:570  INFO 3872 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@6be38b17[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
-09:57:49:570  INFO 3872 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1763344459719_192.168.100.1_57952
-09:57:49:572  INFO 3872 --- [nacos-grpc-client-executor-64] c.a.n.c.remote.client.grpc.GrpcClient    : [1763344459719_192.168.100.1_57952]Ignore complete event,isRunning:false,isAbandon=false
-09:57:49:574  INFO 3872 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@76e40457[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 65]
-09:57:49:577  INFO 3872 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-09:57:49:622  INFO 3872 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-09:57:53:504  INFO 720 --- [main] com.hmall.user.UserApplication           : Starting UserApplication using Java 11.0.29 on zzb with PID 720 (D:\springcloudcode\hmall\user-service\target\classes started by 19119 in D:\springcloudcode\hmall)
-09:57:53:505 DEBUG 720 --- [main] com.hmall.user.UserApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-09:57:53:506  INFO 720 --- [main] com.hmall.user.UserApplication           : The following 1 profile is active: "local"
-09:57:54:277  INFO 720 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=55918555-c298-3d33-8602-6d444bb16364
-09:57:54:557  INFO 720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
-09:57:54:565  INFO 720 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-09:57:54:566  INFO 720 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-09:57:54:677  INFO 720 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-09:57:54:677  INFO 720 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1140 ms
-09:57:57:827  INFO 720 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
-09:57:57:850  INFO 720 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-09:57:59:226  INFO 720 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
-09:57:59:576  INFO 720 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of f8f0bde1-162f-4d8e-b547-7b89828e2303
-09:57:59:619  INFO 720 --- [main] org.reflections.Reflections              : Reflections took 27 ms to scan 1 urls, producing 3 keys and 6 values 
-09:57:59:647  INFO 720 --- [main] org.reflections.Reflections              : Reflections took 13 ms to scan 1 urls, producing 4 keys and 9 values 
-09:57:59:665  INFO 720 --- [main] org.reflections.Reflections              : Reflections took 14 ms to scan 1 urls, producing 3 keys and 10 values 
-09:57:59:669  WARN 720 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-09:57:59:680  INFO 720 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 1 keys and 5 values 
-09:57:59:693  INFO 720 --- [main] org.reflections.Reflections              : Reflections took 11 ms to scan 1 urls, producing 1 keys and 7 values 
-09:57:59:706  INFO 720 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 2 keys and 8 values 
-09:57:59:709  WARN 720 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-09:57:59:710  INFO 720 --- [main] com.alibaba.nacos.common.remote.client   : [f8f0bde1-162f-4d8e-b547-7b89828e2303] RpcClient init label, labels = {module=naming, source=sdk}
-09:57:59:713  INFO 720 --- [main] com.alibaba.nacos.common.remote.client   : [f8f0bde1-162f-4d8e-b547-7b89828e2303] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
-09:57:59:713  INFO 720 --- [main] com.alibaba.nacos.common.remote.client   : [f8f0bde1-162f-4d8e-b547-7b89828e2303] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
-09:57:59:714  INFO 720 --- [main] com.alibaba.nacos.common.remote.client   : [f8f0bde1-162f-4d8e-b547-7b89828e2303] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-09:57:59:716  INFO 720 --- [main] com.alibaba.nacos.common.remote.client   : [f8f0bde1-162f-4d8e-b547-7b89828e2303] Try to connect to server on start up, server: {serverIp = '192.168.100.130', server main port = 8848}
-09:58:01:394  INFO 720 --- [main] com.alibaba.nacos.common.remote.client   : [f8f0bde1-162f-4d8e-b547-7b89828e2303] Success to connect to server [192.168.100.130:8848] on start up, connectionId = 1763344681927_192.168.100.1_54422
-09:58:01:395  INFO 720 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [f8f0bde1-162f-4d8e-b547-7b89828e2303] Notify connected event to listeners.
-09:58:01:396  INFO 720 --- [main] com.alibaba.nacos.common.remote.client   : [f8f0bde1-162f-4d8e-b547-7b89828e2303] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
-09:58:01:398  INFO 720 --- [main] com.alibaba.nacos.common.remote.client   : [f8f0bde1-162f-4d8e-b547-7b89828e2303] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$999/0x0000000840717840
-09:58:01:480  INFO 720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
-09:58:01:493  INFO 720 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP user-service 192.168.100.1:8084 register finished
-09:58:01:952  INFO 720 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [f8f0bde1-162f-4d8e-b547-7b89828e2303] Receive server push request, request = NotifySubscriberRequest, requestId = 9
-09:58:01:962  INFO 720 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [f8f0bde1-162f-4d8e-b547-7b89828e2303] Ack server push request, request = NotifySubscriberRequest, requestId = 9
-09:58:03:078  INFO 720 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
-09:58:03:079  INFO 720 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-09:58:03:082  INFO 720 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-09:58:03:109  INFO 720 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-09:58:03:286  INFO 720 --- [main] com.hmall.user.UserApplication           : Started UserApplication in 11.6 seconds (JVM running for 12.424)
-10:06:03:855  WARN 720 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
-10:06:03:855  WARN 720 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
-10:06:03:856  WARN 720 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
-10:06:03:856  WARN 720 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
-10:06:04:267  INFO 720 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
-10:06:04:277  INFO 720 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
-10:06:04:606  INFO 720 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
-10:06:04:606  INFO 720 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@4efc3aa5[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
-10:06:04:606  INFO 720 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1763344681927_192.168.100.1_54422
-10:06:04:609  INFO 720 --- [nacos-grpc-client-executor-117] c.a.n.c.remote.client.grpc.GrpcClient    : [1763344681927_192.168.100.1_54422]Ignore complete event,isRunning:false,isAbandon=false
-10:06:04:611  INFO 720 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@5cf985c6[Running, pool size = 6, active threads = 0, queued tasks = 0, completed tasks = 118]
-11:32:37:902  INFO 26068 --- [main] com.hmall.user.UserApplication           : Starting UserApplication using Java 11.0.29 on zzb with PID 26068 (D:\springcloudcode\hmall\user-service\target\classes started by 19119 in D:\springcloudcode\hmall)
-11:32:37:906 DEBUG 26068 --- [main] com.hmall.user.UserApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-11:32:37:906  INFO 26068 --- [main] com.hmall.user.UserApplication           : The following 1 profile is active: "local"
-11:32:39:130  INFO 26068 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=55918555-c298-3d33-8602-6d444bb16364
-11:32:39:465  INFO 26068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
-11:32:39:473  INFO 26068 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-11:32:39:473  INFO 26068 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-11:32:39:565  INFO 26068 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-11:32:39:565  INFO 26068 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1612 ms
-11:32:43:209  INFO 26068 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
-11:32:43:250  INFO 26068 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-11:32:44:891  INFO 26068 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
-11:32:45:136  INFO 26068 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of d0bf1f70-7404-4efe-8a1c-dea1de7728d4
-11:32:45:166  INFO 26068 --- [main] org.reflections.Reflections              : Reflections took 17 ms to scan 1 urls, producing 3 keys and 6 values 
-11:32:45:183  INFO 26068 --- [main] org.reflections.Reflections              : Reflections took 6 ms to scan 1 urls, producing 4 keys and 9 values 
-11:32:45:191  INFO 26068 --- [main] org.reflections.Reflections              : Reflections took 5 ms to scan 1 urls, producing 3 keys and 10 values 
-11:32:45:192  WARN 26068 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-11:32:45:197  INFO 26068 --- [main] org.reflections.Reflections              : Reflections took 4 ms to scan 1 urls, producing 1 keys and 5 values 
-11:32:45:204  INFO 26068 --- [main] org.reflections.Reflections              : Reflections took 5 ms to scan 1 urls, producing 1 keys and 7 values 
-11:32:45:210  INFO 26068 --- [main] org.reflections.Reflections              : Reflections took 4 ms to scan 1 urls, producing 2 keys and 8 values 
-11:32:45:211  WARN 26068 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-11:32:45:212  INFO 26068 --- [main] com.alibaba.nacos.common.remote.client   : [d0bf1f70-7404-4efe-8a1c-dea1de7728d4] RpcClient init label, labels = {module=naming, source=sdk}
-11:32:45:213  INFO 26068 --- [main] com.alibaba.nacos.common.remote.client   : [d0bf1f70-7404-4efe-8a1c-dea1de7728d4] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
-11:32:45:213  INFO 26068 --- [main] com.alibaba.nacos.common.remote.client   : [d0bf1f70-7404-4efe-8a1c-dea1de7728d4] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
-11:32:45:214  INFO 26068 --- [main] com.alibaba.nacos.common.remote.client   : [d0bf1f70-7404-4efe-8a1c-dea1de7728d4] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-11:32:45:215  INFO 26068 --- [main] com.alibaba.nacos.common.remote.client   : [d0bf1f70-7404-4efe-8a1c-dea1de7728d4] Try to connect to server on start up, server: {serverIp = '192.168.100.130', server main port = 8848}
-11:32:47:117  INFO 26068 --- [main] com.alibaba.nacos.common.remote.client   : [d0bf1f70-7404-4efe-8a1c-dea1de7728d4] Success to connect to server [192.168.100.130:8848] on start up, connectionId = 1763350367687_192.168.100.1_53326
-11:32:47:118  INFO 26068 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [d0bf1f70-7404-4efe-8a1c-dea1de7728d4] Notify connected event to listeners.
-11:32:47:119  INFO 26068 --- [main] com.alibaba.nacos.common.remote.client   : [d0bf1f70-7404-4efe-8a1c-dea1de7728d4] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
-11:32:47:120  INFO 26068 --- [main] com.alibaba.nacos.common.remote.client   : [d0bf1f70-7404-4efe-8a1c-dea1de7728d4] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$999/0x00000008406ff840
-11:32:47:198  INFO 26068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
-11:32:47:210  INFO 26068 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP user-service 192.168.100.1:8084 register finished
-11:32:47:718  INFO 26068 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [d0bf1f70-7404-4efe-8a1c-dea1de7728d4] Receive server push request, request = NotifySubscriberRequest, requestId = 47
-11:32:47:734  INFO 26068 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [d0bf1f70-7404-4efe-8a1c-dea1de7728d4] Ack server push request, request = NotifySubscriberRequest, requestId = 47
-11:32:48:783  INFO 26068 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
-11:32:48:783  INFO 26068 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-11:32:48:786  INFO 26068 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-11:32:48:815  INFO 26068 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-11:32:48:886  INFO 26068 --- [main] com.hmall.user.UserApplication           : Started UserApplication in 13.024 seconds (JVM running for 13.732)
-11:34:09:984  WARN 26068 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
-11:34:09:985  WARN 26068 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
-11:34:09:985  WARN 26068 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
-11:34:09:986  WARN 26068 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
-11:34:10:374  INFO 26068 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
-11:34:10:390  INFO 26068 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
-11:34:10:712  INFO 26068 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
-11:34:10:712  INFO 26068 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@4cf9308d[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
-11:34:10:712  INFO 26068 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1763350367687_192.168.100.1_53326
-11:34:10:716  INFO 26068 --- [nacos-grpc-client-executor-28] c.a.n.c.remote.client.grpc.GrpcClient    : [1763350367687_192.168.100.1_53326]Ignore complete event,isRunning:false,isAbandon=false
-11:34:10:718  INFO 26068 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@57bc2d82[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 29]
-11:35:00:198  INFO 21696 --- [main] com.hmall.user.UserApplication           : Starting UserApplication using Java 11.0.29 on zzb with PID 21696 (D:\springcloudcode\hmall\user-service\target\classes started by 19119 in D:\springcloudcode\hmall)
-11:35:00:202 DEBUG 21696 --- [main] com.hmall.user.UserApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
-11:35:00:202  INFO 21696 --- [main] com.hmall.user.UserApplication           : The following 1 profile is active: "local"
-11:35:01:642  INFO 21696 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=55918555-c298-3d33-8602-6d444bb16364
-11:35:02:149  INFO 21696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
-11:35:02:162  INFO 21696 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-11:35:02:163  INFO 21696 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-11:35:02:333  INFO 21696 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-11:35:02:333  INFO 21696 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2070 ms
-11:35:05:853  INFO 21696 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
-11:35:05:878  INFO 21696 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-11:35:07:303  INFO 21696 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
-11:35:07:602  INFO 21696 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 0488d44f-bff0-49e9-b5a4-ccb01b12807f
-11:35:07:641  INFO 21696 --- [main] org.reflections.Reflections              : Reflections took 21 ms to scan 1 urls, producing 3 keys and 6 values 
-11:35:07:660  INFO 21696 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 4 keys and 9 values 
-11:35:07:670  INFO 21696 --- [main] org.reflections.Reflections              : Reflections took 7 ms to scan 1 urls, producing 3 keys and 10 values 
-11:35:07:673  WARN 21696 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-11:35:07:679  INFO 21696 --- [main] org.reflections.Reflections              : Reflections took 5 ms to scan 1 urls, producing 1 keys and 5 values 
-11:35:07:686  INFO 21696 --- [main] org.reflections.Reflections              : Reflections took 5 ms to scan 1 urls, producing 1 keys and 7 values 
-11:35:07:694  INFO 21696 --- [main] org.reflections.Reflections              : Reflections took 5 ms to scan 1 urls, producing 2 keys and 8 values 
-11:35:07:696  WARN 21696 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-11:35:07:696  INFO 21696 --- [main] com.alibaba.nacos.common.remote.client   : [0488d44f-bff0-49e9-b5a4-ccb01b12807f] RpcClient init label, labels = {module=naming, source=sdk}
-11:35:07:697  INFO 21696 --- [main] com.alibaba.nacos.common.remote.client   : [0488d44f-bff0-49e9-b5a4-ccb01b12807f] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
-11:35:07:698  INFO 21696 --- [main] com.alibaba.nacos.common.remote.client   : [0488d44f-bff0-49e9-b5a4-ccb01b12807f] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
-11:35:07:698  INFO 21696 --- [main] com.alibaba.nacos.common.remote.client   : [0488d44f-bff0-49e9-b5a4-ccb01b12807f] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-11:35:07:700  INFO 21696 --- [main] com.alibaba.nacos.common.remote.client   : [0488d44f-bff0-49e9-b5a4-ccb01b12807f] Try to connect to server on start up, server: {serverIp = '192.168.100.130', server main port = 8848}
-11:35:09:173  INFO 21696 --- [main] com.alibaba.nacos.common.remote.client   : [0488d44f-bff0-49e9-b5a4-ccb01b12807f] Success to connect to server [192.168.100.130:8848] on start up, connectionId = 1763350509739_192.168.100.1_54961
-11:35:09:173  INFO 21696 --- [main] com.alibaba.nacos.common.remote.client   : [0488d44f-bff0-49e9-b5a4-ccb01b12807f] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
-11:35:09:173  INFO 21696 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [0488d44f-bff0-49e9-b5a4-ccb01b12807f] Notify connected event to listeners.
-11:35:09:174  INFO 21696 --- [main] com.alibaba.nacos.common.remote.client   : [0488d44f-bff0-49e9-b5a4-ccb01b12807f] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$999/0x00000008406ff840
-11:35:09:240  INFO 21696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
-11:35:09:255  INFO 21696 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP user-service 192.168.100.1:8084 register finished
-11:35:09:778  INFO 21696 --- [nacos-grpc-client-executor-8] com.alibaba.nacos.common.remote.client   : [0488d44f-bff0-49e9-b5a4-ccb01b12807f] Receive server push request, request = NotifySubscriberRequest, requestId = 59
-11:35:09:798  INFO 21696 --- [nacos-grpc-client-executor-8] com.alibaba.nacos.common.remote.client   : [0488d44f-bff0-49e9-b5a4-ccb01b12807f] Ack server push request, request = NotifySubscriberRequest, requestId = 59
-11:35:10:710  INFO 21696 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
-11:35:10:711  INFO 21696 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-11:35:10:713  INFO 21696 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-11:35:10:735  INFO 21696 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-11:35:10:845  INFO 21696 --- [main] com.hmall.user.UserApplication           : Started UserApplication in 12.957 seconds (JVM running for 14.171)
-11:36:29:313  INFO 21696 --- [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-11:36:29:314  INFO 21696 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-11:36:29:315  INFO 21696 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-11:36:29:569  INFO 21696 --- [http-nio-8084-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-11:36:29:925  INFO 21696 --- [http-nio-8084-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-11:36:29:935 DEBUG 21696 --- [http-nio-8084-exec-1] c.h.user.mapper.UserMapper.selectList    : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
-11:36:29:966 DEBUG 21696 --- [http-nio-8084-exec-1] c.h.user.mapper.UserMapper.selectList    : ==> Parameters: jack(String)
-11:36:30:035 DEBUG 21696 --- [http-nio-8084-exec-1] c.h.user.mapper.UserMapper.selectList    : <==      Total: 1
+18:37:49:655  INFO 11124 --- [main] com.hmall.user.UserApplication           : Starting UserApplication using Java 11.0.29 on zzb with PID 11124 (D:\springcloudcode\hmall\user-service\target\classes started by 19119 in D:\springcloudcode\hmall)
+18:37:49:665 DEBUG 11124 --- [main] com.hmall.user.UserApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+18:37:49:665  INFO 11124 --- [main] com.hmall.user.UserApplication           : The following 1 profile is active: "local"
+18:37:51:243  INFO 11124 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=61e63218-50eb-3b6c-8779-ffd0908a5fef
+18:37:51:691  INFO 11124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+18:37:51:705  INFO 11124 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+18:37:51:705  INFO 11124 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+18:37:51:890  INFO 11124 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+18:37:51:890  INFO 11124 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2168 ms
+18:37:58:593  INFO 11124 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+18:37:58:640  INFO 11124 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+18:38:00:556  INFO 11124 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+18:38:01:226  INFO 11124 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 1b987fd0-0d9d-4501-8614-b952b056e034
+18:38:01:296  INFO 11124 --- [main] org.reflections.Reflections              : Reflections took 28 ms to scan 1 urls, producing 3 keys and 6 values 
+18:38:01:323  INFO 11124 --- [main] org.reflections.Reflections              : Reflections took 13 ms to scan 1 urls, producing 4 keys and 9 values 
+18:38:01:336  INFO 11124 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 3 keys and 10 values 
+18:38:01:339  WARN 11124 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+18:38:01:350  INFO 11124 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 1 keys and 5 values 
+18:38:01:365  INFO 11124 --- [main] org.reflections.Reflections              : Reflections took 12 ms to scan 1 urls, producing 1 keys and 7 values 
+18:38:01:386  INFO 11124 --- [main] org.reflections.Reflections              : Reflections took 14 ms to scan 1 urls, producing 2 keys and 8 values 
+18:38:01:390  WARN 11124 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+18:38:01:392  INFO 11124 --- [main] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] RpcClient init label, labels = {module=naming, source=sdk}
+18:38:01:394  INFO 11124 --- [main] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+18:38:01:394  INFO 11124 --- [main] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+18:38:01:395  INFO 11124 --- [main] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+18:38:01:397  INFO 11124 --- [main] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Try to connect to server on start up, server: {serverIp = '192.168.100.130', server main port = 8848}
+18:38:04:067  INFO 11124 --- [main] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Success to connect to server [192.168.100.130:8848] on start up, connectionId = 1763721484707_192.168.100.1_59061
+18:38:04:067  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Notify connected event to listeners.
+18:38:04:067  INFO 11124 --- [main] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+18:38:04:070  INFO 11124 --- [main] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1000/0x00000008406ff040
+18:38:04:159  INFO 11124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+18:38:04:178  INFO 11124 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP user-service 192.168.100.1:8084 register finished
+18:38:04:681  INFO 11124 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Receive server push request, request = NotifySubscriberRequest, requestId = 4
+18:38:04:699  INFO 11124 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Ack server push request, request = NotifySubscriberRequest, requestId = 4
+18:38:05:895  INFO 11124 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+18:38:05:896  INFO 11124 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+18:38:05:899  INFO 11124 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+18:38:05:938  INFO 11124 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+18:38:06:130  INFO 11124 --- [main] com.hmall.user.UserApplication           : Started UserApplication in 19.017 seconds (JVM running for 20.511)
+19:33:33:849  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Server healthy check fail, currentConnection = 1763721484707_192.168.100.1_59061
+19:33:33:857  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+19:33:36:110  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Success to connect a server [192.168.100.130:8848], connectionId = 1763724816875_192.168.100.1_53512
+19:33:36:111  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Abandon prev connection, server is 192.168.100.130:8848, connectionId is 1763721484707_192.168.100.1_59061
+19:33:36:112  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : Close current connection 1763721484707_192.168.100.1_59061
+19:33:36:127  INFO 11124 --- [nacos-grpc-client-executor-680] c.a.n.c.remote.client.grpc.GrpcClient    : [1763721484707_192.168.100.1_59061]Ignore complete event,isRunning:false,isAbandon=true
+19:33:36:137  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Notify disconnected event to listeners
+19:33:36:152  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Notify connected event to listeners.
+19:33:36:722  INFO 11124 --- [nacos-grpc-client-executor-683] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Receive server push request, request = NotifySubscriberRequest, requestId = 22
+19:33:36:722  INFO 11124 --- [nacos-grpc-client-executor-683] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Ack server push request, request = NotifySubscriberRequest, requestId = 22
+20:00:11:906  WARN 11124 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=59307] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+20:00:12:388  WARN 11124 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=59307] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+20:00:12:780  WARN 11124 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=59307] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+20:00:13:205  WARN 11124 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=59307] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+20:00:13:592  WARN 11124 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=59307] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+20:00:30:005  WARN 11124 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=59307] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+20:00:31:470  WARN 11124 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=59307] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+20:00:33:860  WARN 11124 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=59307] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+20:00:38:337  WARN 11124 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=59307] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+20:00:46:344  WARN 11124 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=59307] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+20:00:46:834  WARN 11124 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=59307] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+20:00:47:263  WARN 11124 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=59307] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+20:01:03:271  WARN 11124 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=59307] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+20:01:03:699  WARN 11124 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=59307] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+20:01:35:749  WARN 11124 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=59307] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+20:01:36:258  WARN 11124 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=59307] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+20:02:40:156  WARN 11124 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=59307] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+20:02:40:543  WARN 11124 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=59307] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+20:04:48:647  WARN 11124 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=59307] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+20:09:14:165  WARN 11124 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=59307] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+20:22:14:991  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Server healthy check fail, currentConnection = 1763724816875_192.168.100.1_53512
+20:22:14:991  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+20:22:17:569  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Success to connect a server [192.168.100.130:8848], connectionId = 1763726394458_192.168.100.1_53160
+20:22:17:570  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Abandon prev connection, server is 192.168.100.130:8848, connectionId is 1763724816875_192.168.100.1_53512
+20:22:17:570  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : Close current connection 1763724816875_192.168.100.1_53512
+20:22:17:573  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Notify disconnected event to listeners
+20:22:17:574  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Notify connected event to listeners.
+20:22:17:575  INFO 11124 --- [nacos-grpc-client-executor-1000] c.a.n.c.remote.client.grpc.GrpcClient    : [1763724816875_192.168.100.1_53512]Ignore complete event,isRunning:true,isAbandon=true
+20:22:18:873  INFO 11124 --- [nacos-grpc-client-executor-1003] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Receive server push request, request = NotifySubscriberRequest, requestId = 33
+20:22:18:873  INFO 11124 --- [nacos-grpc-client-executor-1003] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Ack server push request, request = NotifySubscriberRequest, requestId = 33
+20:33:26:114  INFO 11124 --- [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:33:26:115  INFO 11124 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+20:33:26:165  INFO 11124 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 50 ms
+20:33:26:684  INFO 11124 --- [http-nio-8084-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+20:33:27:153  INFO 11124 --- [http-nio-8084-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+20:33:27:166 DEBUG 11124 --- [http-nio-8084-exec-1] c.h.user.mapper.UserMapper.selectList    : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+20:33:27:198 DEBUG 11124 --- [http-nio-8084-exec-1] c.h.user.mapper.UserMapper.selectList    : ==> Parameters: jack(String)
+20:33:27:315 DEBUG 11124 --- [http-nio-8084-exec-1] c.h.user.mapper.UserMapper.selectList    : <==      Total: 1
+20:33:29:055 DEBUG 11124 --- [http-nio-8084-exec-2] c.h.user.mapper.UserMapper.selectList    : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+20:33:29:055 DEBUG 11124 --- [http-nio-8084-exec-2] c.h.user.mapper.UserMapper.selectList    : ==> Parameters: jack(String)
+20:33:29:059 DEBUG 11124 --- [http-nio-8084-exec-2] c.h.user.mapper.UserMapper.selectList    : <==      Total: 1
+21:10:48:959  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Server healthy check fail, currentConnection = 1763726394458_192.168.100.1_53160
+21:10:48:962  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+21:10:51:533  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Success to connect a server [192.168.100.130:8848], connectionId = 1763729524754_192.168.100.1_54952
+21:10:51:533  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Abandon prev connection, server is 192.168.100.130:8848, connectionId is 1763726394458_192.168.100.1_53160
+21:10:51:533  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : Close current connection 1763726394458_192.168.100.1_53160
+21:10:51:534  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Notify disconnected event to listeners
+21:10:51:536  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Notify connected event to listeners.
+21:10:51:545  WARN 11124 --- [nacos-grpc-client-executor-1594] c.a.n.c.remote.client.grpc.GrpcClient    : [1763726394458_192.168.100.1_53160]Ignore error event,isRunning:true,isAbandon=true
+21:10:53:111  INFO 11124 --- [nacos-grpc-client-executor-1597] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Receive server push request, request = NotifySubscriberRequest, requestId = 49
+21:10:53:113  INFO 11124 --- [nacos-grpc-client-executor-1597] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Ack server push request, request = NotifySubscriberRequest, requestId = 49
+21:16:21:457  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Server healthy check fail, currentConnection = 1763729524754_192.168.100.1_54952
+21:16:21:458  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+21:16:22:608  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Success to connect a server [192.168.100.130:8848], connectionId = 1763729883421_192.168.100.1_58861
+21:16:22:608  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Abandon prev connection, server is 192.168.100.130:8848, connectionId is 1763729524754_192.168.100.1_54952
+21:16:22:608  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : Close current connection 1763729524754_192.168.100.1_54952
+21:16:22:609  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Notify disconnected event to listeners
+21:16:22:609  INFO 11124 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Notify connected event to listeners.
+21:16:22:611  WARN 11124 --- [nacos-grpc-client-executor-1666] c.a.n.c.remote.client.grpc.GrpcClient    : [1763729524754_192.168.100.1_54952]Ignore error event,isRunning:true,isAbandon=true
+21:16:23:897  INFO 11124 --- [nacos-grpc-client-executor-1670] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Receive server push request, request = NotifySubscriberRequest, requestId = 69
+21:16:23:898  INFO 11124 --- [nacos-grpc-client-executor-1670] com.alibaba.nacos.common.remote.client   : [1b987fd0-0d9d-4501-8614-b952b056e034] Ack server push request, request = NotifySubscriberRequest, requestId = 69
+21:25:57:554 DEBUG 11124 --- [http-nio-8084-exec-4] c.h.user.mapper.UserMapper.selectList    : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+21:25:57:557 DEBUG 11124 --- [http-nio-8084-exec-4] c.h.user.mapper.UserMapper.selectList    : ==> Parameters: jack(String)
+21:25:57:589 DEBUG 11124 --- [http-nio-8084-exec-4] c.h.user.mapper.UserMapper.selectList    : <==      Total: 1
